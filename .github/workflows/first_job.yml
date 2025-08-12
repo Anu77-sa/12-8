@@ -1,14 +1,12 @@
-
-
 name: first-job
-
 on:
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-       - name: print a build
-        run: echo Hello, world!
+      - name: print a build
+        run: echo "Hello, world!"
 
       
